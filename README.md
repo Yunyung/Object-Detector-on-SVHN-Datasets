@@ -42,7 +42,7 @@ pip install -v -e
 pip install tqdm
 ```
 ## Download Official Dataset
-#### Dataset used for the course are different. Just provide the link below to official dataset
+#### Dataset used for the course are a little bit different. Just provide the link below to official dataset
 - [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/)
 
 ## Project Structure
