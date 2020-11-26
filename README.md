@@ -4,7 +4,7 @@
 
 This project is part of a series of projects for the course *Selected Topics in Visual Recognition using Deep Learning*. This Repository gathers the code for digit object detector.
 
-In this project we use [mmdetection](https://github.com/open-mmlab/mmdetection), an open source object detection toolbox based on PyTorch, to train our model and conquer this task. See report.pdf for the report containing the representation and the analysis of the produced results.
+In this project we use [mmdetection](https://github.com/open-mmlab/mmdetection), an open source object detection toolbox based on PyTorch, to train our model and conquer this task. See [report.pdf](https://github.com/Yunyung/Object-detector-on-SVHN-datasets/blob/main/report.md) for the report containing the representation and the analysis of the produced results.
 
 ## Environment
 - Platform: Ubuntu
