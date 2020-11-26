@@ -123,8 +123,8 @@ python tools/train.py configs/cascade_rcnn/cascade_rcnn_r101_caffe_fpn_1x_coco_c
 - Modify img scale to meet you custom dataset if needed in ```mmdetection/configs/_base_/datasets/voc0712.py```
 
 ## Inference
-There are three trained model in ```checkpoints``` folder, so modify ```checkpoint_file``` and ```config_file``` path in 
-```infer.py```.
+There are three trained model in ```checkpoints``` folder. Modify ```checkpoint_file``` and ```config_file``` path in 
+```infer.py``` to take different models.
 
 ```
 python infer.py # Default using Cascade R-CNN to infer testing data
