@@ -9,7 +9,7 @@ In this project we use [mmdetection](https://github.com/open-mmlab/mmdetection),
 ## Environment
 - Platform: Ubuntu
 - Package: mmdetection
-## Reproducing submissoin
+## Reproducing Submissoin
 Because we use [mmdetectoin](https://github.com/open-mmlab/mmdetection) as our project's backbone, there are some of tricks needed to do for training and testing on our custom dataset. That is, a lots of preparation and modification required to be done.
 
 To reproduct my submission without retrainig, do the following steps:
