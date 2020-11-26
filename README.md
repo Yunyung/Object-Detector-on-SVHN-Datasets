@@ -77,7 +77,7 @@ Root/
     │   │   │    ├── ImageSets # *.txt contain file's name (no file extension)
     │   │   │    │   ├── Main
     │   │   │    │   │   ├ train.txt
-    │   │   │    │   │   ├ val.txt
+    │   │   │    │   │   ├ test.txt
 ```
 
 ## Dataset Preparation
