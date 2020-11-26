@@ -1,4 +1,4 @@
-# Object detector on SVHN datasets
+# Object Detector on SVHN Datasets
 
 ###### `tags: Selected Topics in Visual Recognition using Deep Learning`
 
