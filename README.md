@@ -141,7 +141,7 @@ The result will save in as ```infer_output.json``` in root
 | mAP    | 0.390  | 0.402       | 0.419         |
 | Speed(ms)|20.6   | 59.4   | 94.1        | 
 
-The three object detector shown above are measured by mAP score and Speed. The speed tested in ```SpeedBenchmark.ipynb``` file
+The three object detectors shown above are measured by mAP score and Speed per image. The speed tested in ```SpeedBenchmark.ipynb``` file
 
 
 
