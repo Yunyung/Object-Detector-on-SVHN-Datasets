@@ -45,17 +45,17 @@ pip install tqdm
 ## Project Structure
 ```
 Root/
-    infer.py # infer your testing data
-    SpeedBenchmark.ipynb # Test model's inference speed
-    parse_matFile.py # used to parse data in 'digitStruct.mat' file to .xml format(VOC format)
-    override_setting # override the setting in mmdetection
+    infer.py                        # infer your testing data
+    SpeedBenchmark.ipynb            # Test model's inference speed
+    parse_matFile.py                # used to parse data in 'digitStruct.mat' file to .xml format(VOC format)
+    override_setting                # override the setting in mmdetection
     ├ faster_rcnn_r50_fpn_1x_VOC.py
     ├ ....
     checkpoints
     ├ cascade_rcnn.pth
     ├ faster_rcnn.pth
     ├ YOLOv3.pth
-    TestDataset # testing dataset you want to infer
+    TestDataset                     # testing dataset you want to infer
     ├ 1.png
     ├ 2.png
     ├ ...
@@ -66,15 +66,15 @@ Root/
     ├── data # data folder that you sould create manually
     │   ├── VOCdevkit
     │   │   ├── VOC2007
-    │   │   │    ├── Annotations # Put your all 
+    │   │   │    ├── Annotations    # Put your all 
     │   │   │    │   ├ 1.xml
     │   │   │    │   ├ 2.xml
     │   │   │    │   ├ ...
-    │   │   │    ├── JPEGImages # All Image
+    │   │   │    ├── JPEGImages     # All Image
     │   │   │    │   ├ 1.png
     │   │   │    │   ├ 2.png
     │   │   │    │   ├ ...
-    │   │   │    ├── ImageSets # *.txt contain file's name (no file extension)
+    │   │   │    ├── ImageSets      # *.txt contain file's name (no file extension)
     │   │   │    │   ├── Main
     │   │   │    │   │   ├ train.txt
     │   │   │    │   │   ├ test.txt
