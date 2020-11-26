@@ -1,4 +1,4 @@
-# Homework2 README.md
+# Object detector on SVHN datasets
 
 ###### `tags: Selected Topics in Visual Recognition using Deep Learning`
 
@@ -39,7 +39,7 @@ pip install -v -e
 pip install tqdm
 ```
 ## Download Official Dataset
-#### Dataset used for the course are a liitle bit different. Just provide the link below to official dataset
+#### Dataset used for the course are different. Just provide the link below to official dataset
 - [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/)
 
 ## Project Structure
@@ -83,6 +83,11 @@ Root/
 ## Dataset Preparation
 - You can use ```parse_matFile.py``` to parse 'digitStruct.mat' file to .xml format(VOC format), or searching other tools that are also avaliable on the Internet 
 
+- Move ```train.txt, test.txt``` to proper location(same as [Project Struture](#Project-Struture) . You can modify this two files to split training set and validation set
+```
+# move *.txt to proper location(VOC structure), 
+mv *.txt mmdetection/data/VOCdevkit/VOC2007/ImageSets/Main
+```
 - Use following instructoin to override setting in mmdetection for training and testing our models.
 ```
 cd override_setting
@@ -118,7 +123,7 @@ python tools/train.py configs/cascade_rcnn/cascade_rcnn_r101_caffe_fpn_1x_coco_c
 - Modify img scale to meet you custom dataset if needed in ```mmdetection/configs/_base_/datasets/voc0712.py```
 
 ## Inference
-There are three trained model in ```checkpoints``` folder, so modify ```checkpoint_file``` and ```config_file``` path variables in 
+There are three trained model in ```checkpoints``` folder, so modify ```checkpoint_file``` and ```config_file``` path in 
 ```infer.py```.
 
 ```
@@ -134,6 +139,9 @@ The result will save in as ```infer_output.json``` in root
 | Speed(ms)|20.6   | 59.4   | 94.1        | 
 
 The three object detector shown above are measured by mAP score and Speed. The speed tested in ```SpeedBenchmark.ipynb``` file
+
+
+
 
 
 
