@@ -15,7 +15,10 @@ Because we use [mmdetectoin](https://github.com/open-mmlab/mmdetection) as our p
 To reproduct my submission without retrainig, do the following steps:
 
 1. [Installation](#Installation)
-2. [Inference](#Inference)
+2. [Download Official Dataset](#Download-Official-Dataset)
+3. [Project Structure](#Project-Structure)
+4. [Dataset Preparation](#Dataset-Preparation)
+5. [Inference](#Inference)
 
 ## Installation
 In this project, we use [mmdetectoin](https://github.com/open-mmlab/mmdetection) as our backbone, so the related package should be installed. There provided quick installed instructoin below. See [mmdetectoin official installation](https://mmdetection.readthedocs.io/en/latest/get_started.html#installation) if you encounter any problems. 
