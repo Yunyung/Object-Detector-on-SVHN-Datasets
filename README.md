@@ -86,7 +86,7 @@ Root/
 ## Dataset Preparation
 - You can use ```parse_matFile.py``` to parse 'digitStruct.mat' file to .xml format(VOC format), or searching other tools that are also avaliable on the Internet 
 
-- Move ```train.txt, test.txt``` to proper location(same as [Project Struture](#Project-Struture)) . You also can modify this two files to split training set and validation set
+- Move ```train.txt, test.txt``` to proper location(same as [Project Struture](#Project-Structure)) . You also can modify this two files to split training set and validation set
 ```
 # move *.txt to proper location(VOC structure), 
 mv *.txt mmdetection/data/VOCdevkit/VOC2007/ImageSets/Main
