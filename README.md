@@ -46,6 +46,7 @@ pip install tqdm
 ```
 Root/
     infer.py # infer your testing data
+    SpeedBenchmark.ipynb # Test model's inference speed
     parse_matFile.py # used to parse data in 'digitStruct.mat' file to .xml format(VOC format)
     override_setting # override the setting in mmdetection
     ├ faster_rcnn_r50_fpn_1x_VOC.py
@@ -126,8 +127,13 @@ python infer.py # Default using Cascade R-CNN to infer testing data
 
 The result will save in as ```infer_output.json``` in root
 
+## Result
+| Models | YOLOv3 | Faster-RCNN | Cascade R-CNN |
+| ------ | ------ | ----------- | ------------- |
+| mAP    | 0.390  | 0.402       | 0.419         |
+| Speed(ms)|20.6   | 59.4   | 94.1        | 
 
-
+The three object detector shown above are measured by mAP score and Speed. The speed tested in ```SpeedBenchmark.ipynb``` file
 
 
 
